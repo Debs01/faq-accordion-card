@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to bottom, 
+                    hsl(273, 75%, 66%),
+                    hsl(240, 73%, 65%));
+}
+.container {
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
+    margin-left: 300px;
+    margin-top: 50px;
+    box-shadow: -3px -3px 2px rgba(184, 154, 228, 0.3),
+            5px 5px 5px rgba(206, 183, 239, 0.2),
+            15px 15px 15px rgba(26, 7, 57, 0.2);
+    background-color: hsl(240, 5%, 91%)
+}
+.Row1 {
+    width: 50%;
+}
+.image1 {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
